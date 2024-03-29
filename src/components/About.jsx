@@ -6,7 +6,9 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
+import Resume from "../assets/Pavila-Resume.pdf";
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
     <motion.div
@@ -53,7 +55,21 @@ const About = () => {
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
+      <div className="social-media">
+        <a
+          href="https://www.linkedin.com/in/pavila-siva-80b371289/"
+          target="_blank"
+        >
+          <FontAwesomeIcon icon={faLinkedinIn} />
+        </a>
+        <a href="https://github.com/pavila-siva" target="_blank">
+          <FontAwesomeIcon icon={faGithub} />
+        </a>
+      </div>
 
+      <a href={Resume} download="Pavila-Resume" className="btn">
+        Download CV
+      </a>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />

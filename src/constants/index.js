@@ -109,7 +109,7 @@ const experiences = [
     ],
   },
   {
-    title: "Bachelor of Commerce(Computer Applications),",
+    title: "Bachelor of Commerce(Computer Applications)",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "2020-2023 | Completed",

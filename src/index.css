@@ -202,3 +202,40 @@
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
 }
+
+.social-media a{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  background: transparent;
+  border: .2rem solid rgb(3, 3, 109);
+  border-radius: 50%;
+  font-size: 1.5rem;
+  color: rgb(62, 62, 231);
+  margin: 1.5rem 1.5rem 1.5rem  0;
+  /* margin: 3rem 1.5rem  0; */
+  text-decoration: none;
+}
+.social-media a:hover{
+  background-color: rgb(154, 154, 255);
+  color: blue;
+  box-shadow: 0 0 1rem blue;
+
+}
+.btn{
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  background: rgb(110, 110, 223);
+  border-radius: 4rem;
+  box-shadow: 0 0 1rem rgb(1, 1, 160);
+  font-size: 1rem;
+  color: rgb(0, 0, 127);
+  letter-spacing: .1rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+.btn:hover{
+  box-shadow: none;
+}
