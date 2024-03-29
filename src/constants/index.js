@@ -18,11 +18,9 @@ import {
   meta,
   starbucks,
   tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  fitness,
+ amazon,
+  rock
 } from "../assets";
 
 export const navLinks = [
@@ -131,7 +129,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: carrent,
+    image: fitness,
     source_code_link: "https://github.com/",
   },
   {
@@ -152,7 +150,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: amazon,
     source_code_link: "https://github.com/",
   },
   {
@@ -173,7 +171,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: rock,
     source_code_link: "https://github.com/pavila-siva/Rock-Paper-Scissor.git",
   },
 ];

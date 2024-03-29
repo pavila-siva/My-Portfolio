@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import pavilaLogo from "./pavilaLogo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -26,12 +26,12 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import fitness from "./fitness.png";
+import amazon from "./amazon.png";
+import rock from "./rock.png";
 
 export {
-  logo,
+  pavilaLogo,
   backend,
   creator,
   mobile,
@@ -56,7 +56,7 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  fitness,
+  amazon,
+  rock,
 };
